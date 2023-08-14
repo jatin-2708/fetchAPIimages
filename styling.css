@@ -1,0 +1,103 @@
+header div {
+
+    position: fixed;
+    text-align: center;
+    background-color: #656CEC;
+    color: aliceblue;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    height: 100 px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+    border-bottom: 3px solid white;
+
+}
+
+div.bigrec1 {
+
+  
+    width: 100%;
+    left: 0;
+    top: 90px;
+    height: 40%;
+    background-color: #ec65c6;
+    border-radius: 64px;
+
+}
+div.bigrec1 ul {
+
+    display: flex;
+    padding: 100px 0px 100px 30%;
+
+
+}
+
+div.bigrec1 ul li.rb1 {
+    flex-basis: 150px;
+    height: 150px;
+    border-radius: 75px;
+    background: url('https://i.pravatar.cc/291');
+    background-size: cover;
+    background-position: center;
+    background-color: #BABEFF;
+    border: 1px solid white;
+    justify-content: center;
+
+
+}
+div.bigrec1 ul li.rb2 {
+
+    flex-basis: 100px;
+    margin: 30px;
+    background: url('https://i.pravatar.cc/290');
+    background-size: cover;
+    background-position: center;
+    background-color: #BABEFF;
+    height: 100px;
+    border: 1px solid white;
+    border-radius: 50px;
+    justify-content: center;
+
+
+}
+div.bigrec1 ul li.rb3 {
+
+    flex-basis: 100px;
+    margin: 30px;
+    background: url('https://i.pravatar.cc/289');
+    background-size: cover;
+    background-position: center;
+    background-color: #BABEFF;
+    height: 100px;
+    border: 1px solid white;
+    border-radius: 50px;
+    justify-content: center;
+
+
+}
+
+div.bigrec1 ul li.rb1 {
+    flex-basis: 150px;
+    height: 150px;
+    border-radius: 75px;
+
+}
+div.bigrec2 ol {
+    counter-reset: 3; /* Set the counter to start from 3 */
+    list-style-type: decimal;
+  }
+  
+  div.bigrec2 ol li {
+    background: #D2D4F2;
+    height: 350px;
+    margin: 2px auto;
+  }
+  
+div.name{
+    justify-content: center;
+    
+}
+ 
+  
